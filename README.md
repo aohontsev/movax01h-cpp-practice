@@ -1,6 +1,7 @@
 # Practice in C++
 
-:white_check_mark: - done :ballot_box_with_check: - not done yet
+:white_check_mark: - done
+:ballot_box_with_check: - not done yet
 
 ## Fill in the blank exercises
 - Array input and output :ballot_box_with_check:
@@ -25,3 +26,5 @@
 ## Advanced Programming Challenges
 - Efficiently find the Maximum Subarray Sum  :ballot_box_with_check:
 - Write a self-printing program without file IO :ballot_box_with_check:
+
+** tasks getting from https://www.cprogramming.com/challenge.html
