@@ -1,32 +1,59 @@
-# Prerequisites
+# User-specific stuff:
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/dictionaries
+
+# Sensitive or high-churn files:
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+
+# Gradle:
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# CMake
+cmake-build-debug/
+cmake-build-release/
+
+# Mongo Explorer plugin:
+.idea/**/mongoSettings.xml
+
+# File-based project format:
+*.iws
+
+# Prerequisites:
 *.d
 
-# Compiled Object files
+# Compiled Object files:
 *.slo
 *.lo
 *.o
 *.obj
 
-# Precompiled Headers
+# Precompiled Headers:
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
+# Compiled Dynamic libraries:
 *.so
 *.dylib
 *.dll
 
-# Fortran module files
+# Fortran module files:
 *.mod
 *.smod
 
-# Compiled Static libraries
+# Compiled Static libraries:
 *.lai
 *.la
 *.a
 *.lib
 
-# Executables
+# Executables:
 *.exe
 *.out
 *.app
