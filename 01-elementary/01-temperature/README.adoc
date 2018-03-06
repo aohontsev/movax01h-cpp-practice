@@ -26,10 +26,10 @@ The files in this project are below:
 └── README.md
 ```
 
-  * src/main.cpp - Implements a command line interface
-  * src/temperature.h - Interface for temperature module
-  * src/temperature.cpp - Realization of temperature module
-  * src/temperature_unittest.cpp - Unit-tests for temperature module using GTest
+  * link:src/main.cpp[src/main.cpp] - Implements a command line interface
+  * link:src/temperature.h[src/temperature.h] - Interface for temperature module
+  * link:src/temperature.cpp[src/temperature.cpp] - Realization of temperature module
+  * link:src/temperature_unittest.cpp[src/temperature_unittest.cpp] - Unit-tests for temperature module using GTest
   * third_party/google-test/* - Things providing a GTest framework installation
 
 # In work
