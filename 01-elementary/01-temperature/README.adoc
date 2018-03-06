@@ -1,0 +1,45 @@
+= Temperature Helper - Get all values indexes from array above average value.
+:toc:
+:toc-placement!:
+
+toc::[]
+
+# Introduction
+
+This is a first task from coursera.org course yellow belt on C plusplus:
+https://www.coursera.org/learn/c-plus-plus-yellow/programming/7T2kJ/sriedniaia-tiempieratura-2
+
+The files in this project are below:
+
+```
+.
+├── src
+│   ├── main.cpp
+│   ├── temperature.cpp
+│   ├── temperature.h
+│   ├── temperature_unittest.cpp
+├── third_party
+│   └── google-test
+│       ├── CMakeLists.txt
+│       ├── CMakeLists.txt.in
+├── CMakeLists.txx
+└── README.md
+```
+
+  * src/main.cpp - Implements a command line interface
+  * src/temperature.h - Interface for temperature module
+  * src/temperature.cpp - Realization of temperature module
+  * src/temperature_unittest.cpp - Unit-tests for temperature module using GTest
+  * third_party/google-test/* - Things providing a GTest framework installation
+
+# In work
+
+[source,bash]
+----
+// input
+5               // size of array
+-2 4 1 10 -5    // array of temperature
+// output
+2               // count values above average
+1 3             // values indexes above average in input array
+----
