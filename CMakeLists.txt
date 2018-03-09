@@ -11,3 +11,10 @@ add_subdirectory(01-elementary/01-temperature)
 # Add intermediate sub directories
 
 # Add advanced sub directories
+
+# Enable unit tests
+
+add_subdirectory(third_party/google-test)
+
+# Enable CTest testing
+enable_testing()
