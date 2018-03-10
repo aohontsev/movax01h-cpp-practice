@@ -18,21 +18,31 @@ The files in this project are below:
 │   ├── temperature.cpp
 │   ├── temperature.h
 │   ├── temperature_unittest.cpp
-├── third_party
-│   └── google-test
-│       ├── CMakeLists.txt
-│       ├── CMakeLists.txt.in
-├── CMakeLists.txx
-└── README.md
+├── CMakeLists.txt
+└── README.adoc
 ```
 
   * link:src/main.cpp[src/main.cpp] - Implements a command line interface
   * link:src/temperature.h[src/temperature.h] - Interface for temperature module
   * link:src/temperature.cpp[src/temperature.cpp] - Realization of temperature module
   * link:src/temperature_unittest.cpp[src/temperature_unittest.cpp] - Unit-tests for temperature module using GTest
-  * third_party/google-test/* - Things providing a GTest framework installation
 
-# In work
+# Task description
+
+The temperature values observed for N consecutive days are given. Find the day numbers (in the numbering from scratch) with a temperature above the arithmetic mean for all N days.
+
+It is guaranteed that the arithmetic mean of the temperature values is an integer.
+
+
+# Input format
+
+Enter the number N, then N integers - the temperature values in the 0th, 1 st, ... (N-1) -th day. It is guaranteed that N does not exceed a million (10 ^ 6), and the temperature values, measured in millionths of degrees Celsius range from -10 ^ 8 to 10 ^ 8. You do not need to check compliance with these restrictions: you can focus on them when choosing the most suitable types for variables.
+
+# Output format
+
+The first number K is the number of days whose temperature is above the arithmetic mean. Then K integers are the numbers of these days.
+
+# Example
 
 [source,bash]
 ----
