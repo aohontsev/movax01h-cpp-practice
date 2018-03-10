@@ -1,0 +1,59 @@
+= Temperature Helper - Get all values indexes from array above average value.
+:toc:
+:toc-placement!:
+
+toc::[]
+
+# Introduction
+
+This is a second task from coursera.org course yellow belt on C plusplus:
+https://www.coursera.org/learn/c-plus-plus-yellow/programming/pg1Vd/massa-blokov
+
+The files in this project are below:
+
+```
+.
+├── src
+│   ├── blocks.cpp
+│   ├── blocks.h
+│   ├── blocks_unittest.cpp
+│   ├── main.cpp
+├── CMakeLists.txt
+└── README.adoc
+```
+
+  * link:src/blocks.cpp[src/blocks.cpp] - Realization of blocks module
+  * link:src/blocks.h[src/blocks.h] -  Interface for blocks module
+  * link:src/blocks_unittest.cpp[src/blocks_unittest.cpp] - Unit-tests for blocks module using GTest
+  * link:src/main.cpp[src/main.cpp] - Implements a command line interface
+
+# Task description
+
+Calculate the total mass of rectangular parallelepiped-shaped concrete blocks of equal density, but of different sizes.
+
+Consider that the sizes of the blocks are measured in centimeters, the density in grams per cubic centimeter, and the total mass in grams. Thus, the block mass can be calculated as a simple product of density per volume.
+
+It is guaranteed that:
+the number of blocks N does not exceed 10^5;
+the block density R does not exceed 100;
+the dimensions of the blocks W, H, D do not exceed 10^4.
+
+# Input format
+
+The first line contains two positive integers: the number of blocks N and the density of each block R. Each of the following N lines contains three positive integers W, H, D are the sizes of the next block.
+
+# Output format
+
+Total weight of all blocks.
+
+# Example
+
+[source,bash]
+----
+// input
+2 14            // blocks count and blocks density
+1 2 3           // 1st block params
+30 40 50        // 2nd block params
+// output
+840084          // summ of both blocks mass
+----

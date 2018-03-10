@@ -5,6 +5,7 @@ project(movax01h-cpp-practice)
 
 # Add elementary sub directories
 add_subdirectory(01-elementary/01-temperature)
+add_subdirectory(01-elementary/02-blocks)
 
 # Add basic sub directories
 
