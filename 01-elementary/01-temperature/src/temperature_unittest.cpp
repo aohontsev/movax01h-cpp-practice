@@ -1,11 +1,12 @@
 // Copyright (c) 2018.
 // Author: Anton Okhontsev <anton.ohontsev@gmail.com>
 
+#include "temperature.h"
+
 #include <string>
 #include <vector>
 
 #include <gtest/gtest.h>
-#include "temperature.h"
 
 class TemperatureTests : public ::testing::Test {};
 
@@ -61,4 +62,3 @@ TEST_F(TemperatureTests, GetIndexesAboveAverage) {
   output = {0, 500000, 1000002};
   EXPECT_EQ(temperature::GetIndexesAboveAverage(big_input), output);
 }
-
