@@ -9,13 +9,13 @@
 namespace blocks {
 
 class Block {
-public:
+ public:
   Block() {}
   Block(int w, int h, int dep, int den)
       : width_(w), height_(h), depth_(dep), density_(den) {}
   int64_t GetMass();
 
-private:
+ private:
   int density_ = 0; // in g/cm^3
   int depth_ = 0;   // in cm
   int height_ = 0;  // in cm
