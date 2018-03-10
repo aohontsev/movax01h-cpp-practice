@@ -1,4 +1,4 @@
-= Temperature Helper - Get all values indexes from array above average value.
+= Blocks - Calculate the total mass.
 :toc:
 :toc-placement!:
 
