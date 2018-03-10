@@ -3,6 +3,11 @@ cmake_minimum_required (VERSION 3.7)
 
 project(movax01h-cpp-practice)
 
+# Add support C++11
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
+set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+
 # Add elementary sub directories
 add_subdirectory(01-elementary/01-temperature)
 add_subdirectory(01-elementary/02-blocks)

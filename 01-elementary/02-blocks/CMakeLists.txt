@@ -24,11 +24,6 @@ set(
 # Add an executable with the above sources
 add_executable(01_02_blocks ${SOURCES})
 
-# Add support C++11
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
-set(CMAKE_CXX_STANDARD 11)
-set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-
 # Add a testing executable
 add_executable(01_02_blocks_unittests src/blocks_unittest.cpp)
 
