@@ -1,4 +1,4 @@
-= Temperature Helper - Get all values indexes from array above average value.
+= Temperature - Get all values indexes from array above average value.
 :toc:
 :toc-placement!:
 
