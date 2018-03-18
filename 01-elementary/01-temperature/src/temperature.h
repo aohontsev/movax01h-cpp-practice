@@ -16,4 +16,4 @@ std::vector<int> GetIndexesAboveAverage(const std::vector<int>& array);
 
 } // namespace temperature
 
-#endif // MOVAX01H_CPP_PRACTICE_ELEMENTARY_TEMPERATURE_TEMPERATURE_H_
+#endif  // MOVAX01H_CPP_PRACTICE_ELEMENTARY_TEMPERATURE_TEMPERATURE_H_

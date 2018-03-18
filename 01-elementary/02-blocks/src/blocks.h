@@ -26,4 +26,4 @@ uint64_t GetSumMassBlocks(const std::vector<Block> &blocks);
 
 } // namespace blocks
 
-#endif // MOVAX01H_CPP_PRACTICE_ELEMENTARY_BLOCKS_BLOCKS_H_
+#endif  // MOVAX01H_CPP_PRACTICE_ELEMENTARY_BLOCKS_BLOCKS_H_
