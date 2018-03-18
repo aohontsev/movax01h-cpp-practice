@@ -14,18 +14,18 @@ The files in this project are below:
 ```
 .
 ├── src
-│   ├── blocks.cpp
+│   ├── blocks.cc
 │   ├── blocks.h
-│   ├── blocks_unittest.cpp
-│   ├── main.cpp
+│   ├── blocks_unittest.cc
+│   ├── main.cc
 ├── CMakeLists.txt
 └── README.adoc
 ```
 
-  * link:src/blocks.cpp[src/blocks.cpp] - Realization of blocks module
+  * link:src/blocks.cc[src/blocks.cc] - Realization of blocks module
   * link:src/blocks.h[src/blocks.h] -  Interface for blocks module
-  * link:src/blocks_unittest.cpp[src/blocks_unittest.cpp] - Unit-tests for blocks module using GTest
-  * link:src/main.cpp[src/main.cpp] - Implements a command line interface
+  * link:src/blocks_unittest.cc[src/blocks_unittest.cc] - Unit-tests for blocks module using GTest
+  * link:src/main.cc[src/main.cc] - Implements a command line interface
 
 # Task description
 

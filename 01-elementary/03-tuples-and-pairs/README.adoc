@@ -14,18 +14,18 @@ The files in this project are below:
 ```
 .
 ├── src
-│   ├── main.cpp
-│   ├── utils.cpp
+│   ├── main.cc
+│   ├── utils.cc
 │   ├── utils.h
-│   └── utils_unittest.cpp
+│   └── utils_unittest.cc
 ├── CMakeLists.txt
 └── README.adoc
 ```
 
-  * link:src/main.cpp[src/main.cpp] - Implements a command line interface
-  * link:src/utils.cpp[src/utils.cpp] - Realization of utils module
+  * link:src/main.cc[src/main.cc] - Implements a command line interface
+  * link:src/utils.cc[src/utils.cc] - Realization of utils module
   * link:src/utils.h[src/utils.h] - Interface for utils module
-  * link:src/utils_unittest.cpp[src/utils_unittest.cpp] - Unit-tests for utils module using GTest
+  * link:src/utils_unittest.cc[src/utils_unittest.cc] - Unit-tests for utils module using GTest
 
 # Task description
 

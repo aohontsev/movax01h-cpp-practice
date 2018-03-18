@@ -9,7 +9,7 @@ project (01_01_temperature)
 # Add an library for the example classes
 add_library(
     01_01_temperature_lib
-    src/temperature.cpp
+    src/temperature.cc
     src/temperature.h
 )
 
@@ -17,15 +17,15 @@ add_library(
 set(
     SOURCES
     src/temperature.h
-    src/temperature.cpp
-    src/main.cpp
+    src/temperature.cc
+    src/main.cc
 )
 
 # Add an executable with the above sources
 add_executable(01_01_temperature ${SOURCES})
 
 # Add a testing executable
-add_executable(01_01_temperature_unittests src/temperature_unittest.cpp)
+add_executable(01_01_temperature_unittests src/temperature_unittest.cc)
 
 target_link_libraries(
     01_01_temperature_unittests

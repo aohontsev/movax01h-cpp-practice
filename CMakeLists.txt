@@ -14,7 +14,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 add_subdirectory(01-elementary/01-temperature)
 add_subdirectory(01-elementary/02-blocks)
 add_subdirectory(01-elementary/03-tuples-and-pairs)
-add_subdirectory(01-elementary/04-task-tracker)
+#add_subdirectory(01-elementary/04-task-tracker)
 
 # Add basic sub directories
 

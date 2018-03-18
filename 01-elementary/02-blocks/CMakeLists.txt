@@ -10,22 +10,22 @@ project (01_02_blocks)
 add_library(
     01_02_blocks_lib
     src/blocks.h
-    src/blocks.cpp
+    src/blocks.cc
 )
 
 # Create a sources variable with a link to all cpp files to compile
 set(
     SOURCES
-    src/blocks.cpp
+    src/blocks.cc
     src/blocks.h
-    src/main.cpp
+    src/main.cc
 )
 
 # Add an executable with the above sources
 add_executable(01_02_blocks ${SOURCES})
 
 # Add a testing executable
-add_executable(01_02_blocks_unittests src/blocks_unittest.cpp)
+add_executable(01_02_blocks_unittests src/blocks_unittest.cc)
 
 target_link_libraries(
     01_02_blocks_unittests

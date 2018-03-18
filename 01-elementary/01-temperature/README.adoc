@@ -14,18 +14,18 @@ The files in this project are below:
 ```
 .
 ├── src
-│   ├── main.cpp
-│   ├── temperature.cpp
+│   ├── main.cc
+│   ├── temperature.cc
 │   ├── temperature.h
-│   ├── temperature_unittest.cpp
+│   ├── temperature_unittest.cc
 ├── CMakeLists.txt
 └── README.adoc
 ```
 
-  * link:src/main.cpp[src/main.cpp] - Implements a command line interface
+  * link:src/main.cc[src/main.cc] - Implements a command line interface
   * link:src/temperature.h[src/temperature.h] - Interface for temperature module
-  * link:src/temperature.cpp[src/temperature.cpp] - Realization of temperature module
-  * link:src/temperature_unittest.cpp[src/temperature_unittest.cpp] - Unit-tests for temperature module using GTest
+  * link:src/temperature.cc[src/temperature.cc] - Realization of temperature module
+  * link:src/temperature_unittest.cc[src/temperature_unittest.cc] - Unit-tests for temperature module using GTest
 
 # Task description
 

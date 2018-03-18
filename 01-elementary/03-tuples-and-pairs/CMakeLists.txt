@@ -9,16 +9,15 @@ project (01_03_tuples_and_pairs)
 # Add an library for the example classes
 add_library(
     01_03_tuples_and_pairs_lib
-    src/main.cpp
-    src/utils.cpp
+    src/utils.cc
     src/utils.h
 )
 
 # Create a sources variable with a link to all cpp files to compile
 set(
     SOURCES
-    src/main.cpp
-    src/utils.cpp
+    src/main.cc
+    src/utils.cc
     src/utils.h
 )
 
@@ -26,7 +25,7 @@ set(
 add_executable(01_03_tuples_and_pairs ${SOURCES})
 
 # Add a testing executable
-add_executable(01_03_tuples_and_pairs_unittests src/utils_unittest.cpp)
+add_executable(01_03_tuples_and_pairs_unittests src/utils_unittest.cc)
 
 target_link_libraries(
     01_03_tuples_and_pairs_unittests
