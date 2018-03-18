@@ -1,4 +1,4 @@
-= Blocks - Calculate the total mass.
+= Tuples and pairs - Write the FindMaxRepetitionCount function.
 :toc:
 :toc-placement!:
 
