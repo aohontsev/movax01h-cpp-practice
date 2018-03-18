@@ -1,8 +1,8 @@
 // Copyright (c) 2018.
 // Author: Anton Okhontsev <anton.ohontsev@gmail.com>
 
-#ifndef BLOCKS_HANDLER_H_
-#define BLOCKS_HANDLER_H_
+#ifndef MOVAX01H_CPP_PRACTICE_ELEMENTARY_BLOCKS_BLOCKS_H_
+#define MOVAX01H_CPP_PRACTICE_ELEMENTARY_BLOCKS_BLOCKS_H_
 
 #include <vector>
 
@@ -26,4 +26,4 @@ uint64_t GetSumMassBlocks(const std::vector<Block> &blocks);
 
 } // namespace blocks
 
-#endif // BLOCKS_HANDLER_H_
+#endif // MOVAX01H_CPP_PRACTICE_ELEMENTARY_BLOCKS_BLOCKS_H_
