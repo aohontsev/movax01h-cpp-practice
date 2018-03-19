@@ -34,4 +34,4 @@ target_link_libraries(
     GTest::Main
 )
 
-add_test(test_all 01_01_temperature_unittests)
+add_test(01_01_temperature_unittests 01_01_temperature_unittests)

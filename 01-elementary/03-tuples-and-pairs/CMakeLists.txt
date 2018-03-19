@@ -34,4 +34,4 @@ target_link_libraries(
     GTest::Main
 )
 
-add_test(test_all 01_03_tuples_and_pairs_unittests)
+add_test(01_03_tuples_and_pairs_unittests 01_03_tuples_and_pairs_unittests)
