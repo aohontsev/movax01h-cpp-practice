@@ -4,6 +4,7 @@
 #ifndef MOVAX01H_CPP_PRACTICE_ELEMENTARY_BLOCKS_BLOCKS_H_
 #define MOVAX01H_CPP_PRACTICE_ELEMENTARY_BLOCKS_BLOCKS_H_
 
+#include <stdint.h>
 #include <vector>
 
 namespace blocks {
