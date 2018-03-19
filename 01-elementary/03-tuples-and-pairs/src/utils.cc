@@ -3,8 +3,6 @@
 
 #include "utils.h"
 
-#include <vector>
-
 namespace utils {
 
 bool operator<(const Region &lhs, const Region &rhs) {
