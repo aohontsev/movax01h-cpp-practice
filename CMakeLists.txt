@@ -10,6 +10,9 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
+# Enable CTest testing
+enable_testing()
+
 # Add elementary sub directories
 add_subdirectory(01-elementary/01-temperature)
 add_subdirectory(01-elementary/02-blocks)
@@ -25,6 +28,3 @@ add_subdirectory(01-elementary/03-tuples-and-pairs)
 # Enable unit tests
 
 add_subdirectory(third_party/google-test)
-
-# Enable CTest testing
-enable_testing()
