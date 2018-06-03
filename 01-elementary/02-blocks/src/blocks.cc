@@ -13,7 +13,7 @@ int64_t Block::GetMass() {
 }
 
 // Max can be not more then 10^19
-uint64_t GetSumMassBlocks(const std::vector<Block> &blocks) {
+uint64_t GetSumMassBlocks(const std::vector<Block>& blocks) {
   return std::accumulate(blocks.begin(), blocks.end(), 0ull,
                          [](uint64_t current_sum, blocks::Block block) {
                            return current_sum + block.GetMass();

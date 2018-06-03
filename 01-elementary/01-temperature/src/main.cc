@@ -23,7 +23,7 @@ int main() {
       temperature::GetIndexesAboveAverage(days_temp);
 
   std::cout << above_average.size() << std::endl;
-  for (const int &item : above_average)
+  for (const int& item : above_average)
     std::cout << item << " ";
   std::cout << std::endl;
 }

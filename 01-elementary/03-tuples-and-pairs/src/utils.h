@@ -20,9 +20,9 @@ struct Region {
   int64_t population;
 };
 
-bool operator<(const Region &lhs, const Region &rhs);
+bool operator<(const Region& lhs, const Region& rhs);
 
-int FindMaxRepetitionCount(const std::vector<Region> &regions);
+int FindMaxRepetitionCount(const std::vector<Region>& regions);
 
 } // namespace utils
 

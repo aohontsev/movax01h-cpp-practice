@@ -5,15 +5,15 @@
 
 namespace utils {
 
-bool operator<(const Region &lhs, const Region &rhs) {
+bool operator<(const Region& lhs, const Region& rhs) {
   return std::tie(lhs.std_name, lhs.parent_std_name, lhs.names,
                   lhs.population) <
-         std::tie(rhs.std_name, rhs.parent_std_name, rhs.names, rhs.population);
+      std::tie(rhs.std_name, rhs.parent_std_name, rhs.names, rhs.population);
 }
 
-int FindMaxRepetitionCount(const std::vector<Region> &regions) {
+int FindMaxRepetitionCount(const std::vector<Region>& regions) {
   std::map<Region, int> regions_count;
-  for (const Region &region : regions) {
+  for (const Region& region : regions) {
     auto search = regions_count.find(region);
     if (search != regions_count.end()) {
       search->second = search->second + 1;

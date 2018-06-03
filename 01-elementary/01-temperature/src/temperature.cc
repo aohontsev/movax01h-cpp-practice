@@ -5,14 +5,14 @@
 
 namespace temperature {
 
-double GetAverageValueFromArray(const std::vector<int> &array) {
+double GetAverageValueFromArray(const std::vector<int>& array) {
   long sum = 0;
-  for (const int &item : array)
+  for (const int& item : array)
     sum += item;
   return 1.0 * sum / array.size();
 }
 
-std::vector<int> GetValuesAboveAverage(const std::vector<int> &array) {
+std::vector<int> GetValuesAboveAverage(const std::vector<int>& array) {
   double average_temperature = GetAverageValueFromArray(array);
   std::vector<int> values;
   for (int i = 0; i < array.size(); i++) {
@@ -22,7 +22,7 @@ std::vector<int> GetValuesAboveAverage(const std::vector<int> &array) {
   return values;
 }
 
-std::vector<int> GetIndexesAboveAverage(const std::vector<int> &array) {
+std::vector<int> GetIndexesAboveAverage(const std::vector<int>& array) {
   double average_temperature = GetAverageValueFromArray(array);
   std::vector<int> indexes;
   for (int i = 0; i < array.size(); i++) {
