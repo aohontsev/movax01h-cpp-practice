@@ -12,6 +12,7 @@ image:https://travis-ci.org/aohontsev/movax01h-cpp-practice.svg?branch=master["B
 - link:01-elementary/01-temperature[Temperature] - Get all above average value. :white_check_mark:
 - link:01-elementary/02-blocks[Blocks] - Calculate the total mass. :white_check_mark:
 - link:01-elementary/03-tuples-and-pairs[Tuples and pairs] - Write the FindMaxRepetitionCount function. :white_check_mark:
+- link:01-elementary/04-task-tracker[Task trackers] - Implement developers team task tracker. :white_check_mark:
 - Array input and output. :ballot_box_with_check:
 - Guessing game. :ballot_box_with_check:
 - Calculator. :ballot_box_with_check:
