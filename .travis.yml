@@ -1,12 +1,24 @@
+sudo: required
+dist: trusty
 language: cpp
-
 compiler:
-  - gcc
+  - g++
   - clang
+
+install: export CXX="g++-6"
+
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - g++-6
 
 before_script:
   - mkdir build
   - cd build
   - cmake ..
 
-script: make && make test
+script:
+- g++-6 --version
+- make && make test
