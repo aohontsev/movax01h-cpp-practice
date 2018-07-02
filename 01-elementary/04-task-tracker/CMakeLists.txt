@@ -13,17 +13,6 @@ add_library(
     src/task_tracker.h
 )
 
-# Create a sources variable with a link to all cpp files to compile
-set(
-    SOURCES
-    src/main.cc
-    src/task_tracker.cc
-    src/task_tracker.h
-)
-
-# Add an executable with the above sources
-add_executable(01_04_task_tracker ${SOURCES})
-
 # Add a testing executable
 add_executable(01_04_task_tracker_unittests src/task_tracker_unittests.cc)
 

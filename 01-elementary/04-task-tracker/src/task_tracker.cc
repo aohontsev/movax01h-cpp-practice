@@ -11,12 +11,14 @@ namespace task_tracker {
 namespace {
 
 void ClearFromEmptyStatuses(TasksInfo& tasks_info) {
-  for (auto it = tasks_info.cbegin(); it != tasks_info.cend();) {
-    if (it->second == 0)
-      it = tasks_info.erase(it);
-    else
-      ++it;
+  std::vector<TaskStatus> empty_statuses;
+  for (auto item : tasks_info) {
+    if (item.second == 0)
+      empty_statuses.push_back(item.first);
   }
+
+  for (auto item : empty_statuses)
+    tasks_info.erase(item);
 }
 
 } // namespace
@@ -57,8 +59,8 @@ TeamTasks::PerformPersonTasks(const std::string& person, int task_count) {
 
   TasksInfo not_performed_tasks = user_tasks;
 
-  for (auto it = updated_tasks.cbegin(); it != updated_tasks.cend(); ++it)
-    user_tasks[it->first] = user_tasks[it->first] + it->second;
+  for (auto item : updated_tasks)
+    user_tasks[item.first] = user_tasks[item.first] + item.second;
 
   ClearFromEmptyStatuses(user_tasks);
   ClearFromEmptyStatuses(updated_tasks);
