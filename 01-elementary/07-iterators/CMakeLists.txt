@@ -12,9 +12,6 @@ set(
     src/main.cc
 )
 
-# Add an executable with the above sources
-add_executable(01_07_iterators ${SOURCES})
-
 # Add a testing executable
 add_executable(01_07_iterators_unittests src/main_unittests.cc)
 
