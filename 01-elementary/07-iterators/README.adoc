@@ -1,0 +1,33 @@
+= Blocks - Calculate the total mass.
+:toc:
+:toc-placement!:
+
+toc::[]
+
+# Introduction
+
+This is a task from book Exceptional C++: 47 Engineering Puzzles by Herb Sutter
+The files in this project are below:
+
+```
+.
+├── src
+│   ├── main.cc
+│   ├── main_unittest.cc
+├── CMakeLists.txt
+└── README.adoc
+```
+
+  * link:src/main.cc[src/main.cc] - Represent main function for practice
+  * link:src/main_unittest.cc[src/main_unittest.cc] - Unit-tests for main
+  function using GTest
+
+# Task description
+
+The main point of these task is learn how safety working with iterators.
+You need check at least 3 potential problems:
+
+  1. Check is iterator have correct value
+  2. Check iterator lifetime, especially after container's manipulations
+  3. Check correct iterator range, uses same source container, from higher to
+least direction when getting slices
