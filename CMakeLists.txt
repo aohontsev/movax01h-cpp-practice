@@ -19,6 +19,8 @@ add_subdirectory(01-elementary/02-blocks)
 add_subdirectory(01-elementary/03-tuples-and-pairs)
 add_subdirectory(01-elementary/04-task-tracker)
 #add_subdirectory(01-elementary/05-pointers-and-references)
+#add_subdirectory(01-elementary/06-function-wrapper)
+add_subdirectory(01-elementary/07-iterators)
 
 # Add basic sub directories
 
