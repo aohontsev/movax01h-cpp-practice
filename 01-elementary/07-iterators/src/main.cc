@@ -29,9 +29,9 @@ MainFuncExitCodes main_func(std::istringstream *str) {
 
   // Find first and last element.
   std::vector<Date>::iterator first =
-      std::find(dates.begin(), dates.end(), "01/01/18");
+      std::find(dates.begin(), dates.end(), Date("01/01/18"));
   std::vector<Date>::iterator last =
-      std::find(dates.begin(), dates.end(), "31/12/18");
+      std::find(dates.begin(), dates.end(), Date("31/12/18"));
   if (first == dates.end() || last == dates.end()) {
     std::cout << "Error. Cannot find first or last value.\n";
     return MainFuncExitCodes::BOUNDARY_VALUE_NOT_FOUND;
@@ -45,11 +45,11 @@ MainFuncExitCodes main_func(std::istringstream *str) {
   std::cout << "\n";
 
   // Insert new element.
-  dates.insert(dates.end() - 1, "30/12/18");
+  dates.insert(dates.end() - 1, Date("30/12/18"));
 
   // Find first and last element.
-  first = std::find(dates.begin(), dates.end(), "01/01/18");
-  last = std::find(dates.begin(), dates.end(), "31/12/18");
+  first = std::find(dates.begin(), dates.end(), Date("01/01/18"));
+  last = std::find(dates.begin(), dates.end(), Date("31/12/18"));
   if (first == dates.end() || last == dates.end()) {
     std::cout << "Error. Cannot find first or last value.\n";
     return MainFuncExitCodes::BOUNDARY_VALUE_NOT_FOUND;
